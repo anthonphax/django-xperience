@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<body>
+
+    <span class="navbar-text">
+        <a href="#"><img src="{% static 'usipav/img/hp_avatar.png' %}"/></a>
+    </span>
+
+{% for empresa in empresas %}
+<tr>
+    <td>{{empresa.name}}</td><br/>
+</tr>
+{% endfor %}
+
+</body>
+</html>

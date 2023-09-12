@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "myHPFont";
+  src: url("../fonts/hp_font.ttf");
+}
+.minha-navbar {
+  width: 100%;
+  height: 7vw;
+  line-height: 7vw;
+  background-color: #225259;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+  font-size: 3.3em;
+  color: white;
+  font-family: myHPFont;
+  margin-left: 1em;
+}
+nav img {
+  float: right;
+  height: 5vw;
+  margin-right: 1em;
+  margin-top: 0.3em;
+}
+.conteudo {
+  width: 100%;
+  /* height: 35vw; */
+  height: 41.75vw;
+  position: relative;
+  z-index: 1;
+}
+.imagem-fundo {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/background_image.jpg") center center;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.rodape {
+  width: 100%;
+  height: 4vw;
+  background-color: #223c53;
+  line-height: 4vw;
+  text-align: center;
+}
+.rodape p {
+  color: white;
+}
+.my-jumbo {
+  /* height: 35vw; */
+  height: 41.75vw;
+  padding: 0;
+  margin: 0;
+}
+.todos-filmes {
+  float: left;
+  height: 100%;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua",
+    Georgia, serif;
+}
+.linha-filmes {
+  width: 100%;
+}
+.filme {
+  display: inline-block;
+  width: 24%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0;
+}
+.sinopse {
+  display: none;
+}
+.capa {
+  width: 44%;
+  height: 80%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2%;
+  margin-top: 30px;
+}
+.infos {
+  display: inline-block;
+  width: 35%;
+  height: 80%;
+  margin-top: 15px;
+  font-size: 0.85em;
+  vertical-align: top;
+}
+.infos p {
+  margin-top: 15px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.lado-direito {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.lado-direito img {
+  width: 40%;
+  margin: 47px 15px 15px 15px;
+  float: left;
+}
+.sinopse {
+  display: none;
+}
+.infos-direita {
+  display: inline-block;
+  width: 45%;
+  height: 98%;
+  text-align: center;
+  vertical-align: top;
+}
+#visualiza-titulo {
+  font-family: "myHPFont" !important;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+#visualiza-sinopse {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#conteudo-direito {
+  display: none;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+#msg-direito {
+  font-size: 2.75em;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 5vw;
+  padding-bottom: 13vw;
+}

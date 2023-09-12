@@ -1,0 +1,156 @@
+
+
+#formulario {
+  padding-left: 5%;
+  padding-top: 5%;
+  background-color: #dfd8d8;
+
+}
+
+html{
+  background-color: #dfd8d8;
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "myHPFont";
+  font-size: 75px;
+}
+
+label {
+  font-family: "myHPFont";
+  font-size: 30px;
+  display: block;
+  margin-top: 5px;
+}
+
+form {
+  display: inline-block;
+}
+
+.calculadora {
+    margin-top: 40px;
+    border: solid 1px #000;
+    padding: 20px;
+    background-color: #2E2E2E;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000;
+  }
+
+  .btn {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #000;
+  }
+
+  .clear {
+    width: 130px;
+  }
+
+  .enter {
+    height: 110px;
+  }
+
+  .zero {
+    width: 130px;
+  }
+
+  .resultado {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    box-shadow: 1px 1px 1px #000;
+  }
+
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #4CAF50;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 10px 5px 5px black;
+} 
+
+input {
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 10px 5px 5px black;
+}
+
+textarea { 
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 10px 5px 5px black;
+}
+
+.minha-navbar {
+  width: 100%;
+  height: 7vw;
+  line-height: 7vw;
+  background-color: #225259;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+  font-size: 3.3em;
+  color: white;
+  font-family: myHPFont;
+  margin-left: 1em;
+}
+nav img {
+  float: right;
+  height: 5vw;
+  margin-right: 1em;
+  margin-top: 0.3em;
+}
+.conteudo {
+  width: 100%;
+  /* height: 35vw; */
+  height: 41.75vw;
+  position: relative;
+  z-index: 1;
+}
+.imagem-fundo {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/background_image.jpg") center center;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.rodape {
+  width: 100%;
+  height: 4vw;
+  background-color: #223c53;
+  line-height: 4vw;
+  text-align: center;
+}
+.rodape p {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@font-face {
+  font-family: "myHPFont";
+  src: url("../fonts/hp_font.ttf");
+  font-weight: bold;
+}
