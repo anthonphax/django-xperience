@@ -18,7 +18,7 @@ def formulario_inscricao(request):
     return render(request, 'form.html', context={'form': form})
 
 def index(request):
-    return render("Hello, world!!!")
+    return render(request, 'calc.html', context={'index': index})
 
 def empresas(request):
     _list = Empresa.objects.all()
