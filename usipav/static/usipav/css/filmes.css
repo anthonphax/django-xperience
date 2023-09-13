@@ -11,8 +11,7 @@
 a,
 a:hover {
   text-decoration: none !important;
-  font-size: 3.3em;
-  color: white;
+  font-size: 3.3em;   
   font-family: myHPFont;
   margin-left: 1em;
 }
@@ -48,9 +47,7 @@ nav img {
   line-height: 4vw;
   text-align: center;
 }
-.rodape p {
-  color: white;
-}
+
 .my-jumbo {
   /* height: 35vw; */
   height: 41.75vw;

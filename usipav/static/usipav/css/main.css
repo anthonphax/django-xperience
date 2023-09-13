@@ -1,16 +1,12 @@
-
-
 #formulario {
   padding-left: 5%;
   padding-top: 5%;
-  background-color: #dfd8d8;
-
 }
 
 html{
-  background-color: #dfd8d8;
   text-align: center;
   font-size: 18px;
+  background: url("../img/zen.jpg") center center;
 }
 
 h1 {
@@ -64,7 +60,7 @@ form {
     margin-bottom: 20px;
     border: solid 1px #000;
     box-shadow: 1px 1px 1px #000;
-  }
+}
 
 
 .button {
@@ -93,28 +89,19 @@ textarea {
   box-shadow: 10px 5px 5px black;
 }
 
-.minha-navbar {
-  width: 100%;
-  height: 7vw;
-  line-height: 7vw;
-  background-color: #225259;
-}
-a,
-a:hover {
-  text-decoration: none !important;
-  font-size: 3.3em;
+a {
   font-family: myHPFont;
   margin-left: 1em;
+  font-size: 42px;
 }
-nav img {
-  float: right;
-  height: 5vw;
-  margin-right: 1em;
-  margin-top: 0.3em;
+
+a:hover {
+  text-decoration: none !important;
+
 }
+
 .conteudo {
   width: 100%;
-  /* height: 35vw; */
   height: 41.75vw;
   position: relative;
   z-index: 1;

@@ -5,9 +5,9 @@
     <body>
         {% block body_block %}
             {% for empresa in empresas %}
-            {{ my_datedate:"Y-m-d" }}
                 <tr>
-                    <td>{{empresa.name|slugify}}</td><br/>
+                    <td>{{empresa.email}}   </td> 
+                    <td>{{empresa.name|slugify}}</td>
                 </tr>
             {% endfor %}
         {% endblock %}
