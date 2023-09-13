@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
+{% extends "basic_app/base.html" %}
+
 <html>
 	<head>
 		<title>Calculadora</title>
@@ -10,8 +12,9 @@
   <link rel="stylesheet" type="text/css" href="{% static 'usipav/css/main.css' %}">
       
 	</head>
-
   <body style="background: #D9D9D9">
+    
+    {% block body_block %}
 
     <div class="container">
       <div class="row">
@@ -81,6 +84,6 @@
       }
 
     </script>
+    {% endblock %}
   </body>	
-
 </html>

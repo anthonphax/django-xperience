@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <span class="navbar-text">
+            <a href="#"><img src="{% static 'usipav/img/hp_avatar.png' %}"/></a>
+        </span>
+        <nav>
+            <div>
+                <a href="{% url 'usipav:index' %}">
+                    Calculadora
+                </a>
+                <a>
+                    Formulário
+                </a href="{% url 'usipav:harry' %}">
+                <a>
+                    HP
+                </a>
+                <a href="{% url 'usipav:empresas' %}">
+                    Registros
+                </a>
+            </div>
+        </nav>
+
+        <div>
+            {% block body_block %}
+            {% endblock %}
+        </div>
+
+
+    </body>
+</html>

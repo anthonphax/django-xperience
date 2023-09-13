@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 {% load static %}
+{% extends "basic_app/base.html" %}
 <html>
-<body>
-
-    <span class="navbar-text">
-        <a href="#"><img src="{% static 'usipav/img/hp_avatar.png' %}"/></a>
-    </span>
-
-{% for empresa in empresas %}
-<tr>
-    <td>{{empresa.name}}</td><br/>
-</tr>
-{% endfor %}
-
-</body>
+    <body>
+        {% block body_block %}
+            {% for empresa in empresas %}
+            {{ my_date|date:"Y-m-d" }}
+                <tr>
+                    <td>{{empresa.name}}</td><br/>
+                </tr>
+            {% endfor %}
+        {% endblock %}
+    </body>
 </html>
