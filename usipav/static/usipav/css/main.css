@@ -69,7 +69,6 @@ form {
 
 .button {
   border: none;
-  color: white;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -104,7 +103,6 @@ a,
 a:hover {
   text-decoration: none !important;
   font-size: 3.3em;
-  color: white;
   font-family: myHPFont;
   margin-left: 1em;
 }
@@ -140,9 +138,7 @@ nav img {
   line-height: 4vw;
   text-align: center;
 }
-.rodape p {
-  color: white;
-}
+
 
 img {
   max-width: 100%;
