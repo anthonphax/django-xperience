@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .forms import FormularioInscricao
+from .forms import *
 from .models import *
 
 
@@ -16,6 +16,9 @@ def formulario_inscricao(request):
             print("algo errado")
 
     return render(request, 'form.html', context={'form': form})
+
+def formulario_empresa(request):
+    return render(request, 'formEmpresa.html', context={'form': FormularioEmpresa})
 
 def index(request):
     return render(request, 'calc.html', context={'index': index})

@@ -3,16 +3,12 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{% static 'usipav/css/main.css' %}">
 	</head>
     <body>
         <span class="navbar-text">
-            <a href="#">LOGOTIPO</a>
+            <h1 href="#" style="margin-left: 10%;">LOGOTIPO</h1>
         </span>
         <nav>
             <div>
@@ -22,8 +18,8 @@
                 <a href="{% url 'formulario' %}">
                     Formulário
                 </a>
-                <a href="{% url 'harry' %}">
-                    HP
+                <a href="{% url 'empresa' %}">
+                    Help
                 </a>
                 <a href="{% url 'empresas' %}">
                     Registros
@@ -36,6 +32,26 @@
             {% endblock %}
         </div>
 
+        <footer class="bg-dark text-light">
+            <div class="container-fluid py-3">
+            <div class="row">
+              <div class="col-4">
+                <ul class="nav flex-column">
+                    <li class="nav-link"><a href="/admin">Admin</a></li>
+                </ul>
+              </div>
+              <div class="col-8">
+                <p>
+               
+Flux capacitor. Alright, okay Jennifer. What if I send in the tape and they don't like it. I mean, what if they say I'm no good. What if they say, 'Get out of here, kid, you got no future.' I mean, I just don't think I can take that kind of rejection. Jesus, I'm beginning to sound like my old man. Don't tell me anything. Tab? I can't give you a tab unless you order something. You got a permit for that?
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="text-center" style="background-color: #333; padding: 20px;" >
+              <a href="#" style="font-size: small;">Anthon Hax</a>
+            </div>
+          </footer>
 
     </body>
 </html>

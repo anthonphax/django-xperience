@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'usipav.apps.UsipavConfig'
 ]
 
@@ -134,3 +135,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Python Anywhere
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+#CRISPY
+CRISPY_ALLOWED_TEMPLATE_PACKS = "uni_form"
+
+CRISPY_TEMPLATE_PACK = "uni_form"

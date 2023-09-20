@@ -2,3 +2,4 @@ django
 unidecode
 validate_docbr
 faker
+django-crispy-forms

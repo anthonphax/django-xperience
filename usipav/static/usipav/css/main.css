@@ -1,6 +1,23 @@
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/UbuntuMedium.ttf");
+}
+
+@font-face {
+  font-family: "gold";
+  src: url("../fonts/goldrops.otf");
+  font-weight: bold;
+}
+
+body {
+  background: rgb(26, 49, 95);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(10%, rgba(26, 49, 95, 1)), color-stop(24%, rgba(29, 108, 141, 1)), color-stop(37%, rgba(41, 136, 151, 1)), color-stop(77%, rgba(39, 45, 100, 1)), color-stop(90%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 1)));
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1a315f', endColorstr='#1a315f', GradientType=0);
+}
+
 #formulario {
-  padding-left: 5%;
-  padding-top: 5%;
+  text-align: center;
 }
 
 html{
@@ -9,14 +26,29 @@ html{
   background: url("../img/zen.jpg") center center;
 }
 
+nav {
+  background-color: #0e213a;
+  opacity: 0.4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
 h1 {
-  font-family: "myHPFont";
+  font-family: "gold";
   font-size: 75px;
+  color:aliceblue;
 }
 
 label {
-  font-family: "myHPFont";
+  font-family: "ubuntu";
   font-size: 30px;
+  color:aliceblue;
   display: block;
   margin-top: 5px;
 }
@@ -62,22 +94,19 @@ form {
     box-shadow: 1px 1px 1px #000;
 }
 
-
-.button {
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
 .button1 {
-  background-color: #4CAF50;
-  /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 10px 5px 5px black;
+    box-shadow: 
+      0.3em 0.3em 0 0 var(--color),
+      inset 0.3em 0.3em 0 0 var(--color);
+    margin-top: 20px;
 } 
+
+.button1:hover, .button1:focus {
+  box-shadow: 
+    0 0 0 0 var(--hover),
+    inset 6em 3.5em 0 0 var(--hover);
+  color: #839798;
+}
 
 input {
   /* offset-x | offset-y | blur-radius | color */
@@ -90,9 +119,11 @@ textarea {
 }
 
 a {
-  font-family: myHPFont;
+  font-family: ubuntu;
   margin-left: 1em;
-  font-size: 42px;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  color: #a79494;
 }
 
 a:hover {
@@ -127,13 +158,30 @@ a:hover {
 }
 
 
+.registros-td {
+  margin-left: 30px;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-@font-face {
-  font-family: "myHPFont";
-  src: url("../fonts/hp_font.ttf");
-  font-weight: bold;
+.nav-link {
+  font-size: 6px;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+table {
+  background-color: #6b6f87 1;
+  margin-left: 25%;
+}
+
+.empresas {
+  opacity: 1;
+  font-size: large;
 }
