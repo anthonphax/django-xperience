@@ -9,11 +9,15 @@
   <body>
     {% block body_block %}
     <div id="formulario">
-        <h1>Empresa</h1>
-        <br/>
+      <h1>Empresa</h1>
+      <br/>
+      <form method="post" class="my-class">
+          {% csrf_token %}
+            {{ FormularioEmpresa }}
 
-        <form method="post" class="my-class">
-            {{ FormularioEmpresa|crispy }}
+            
+
+            <button class="buton button1" type="submit">Submit</button>
         </form>
     </div>
     {% endblock %}

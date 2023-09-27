@@ -10,8 +10,8 @@
         <br/>
 
         <form wrap="hard" style="display: block;" method="POST">
-            {{ form }}
             {% csrf_token %}
+            {{ form }}
             <br/>
             <button class="buton button1" type="submit">Submit</button>
         </form>

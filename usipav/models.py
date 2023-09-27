@@ -27,6 +27,7 @@ class Funcionario(models.Model):
     email = models.CharField(max_length=30)
     cpf = models.CharField(max_length=30)
     endereco = models.CharField(max_length=30)
+    empresa = models.ForeignKey(Empresa, related_name='empresa',  on_delete=models.CASCADE, max_length=120)
 
     def __str__(self):
         return self.name

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+<html lang="pt-BR">
+    <body>
+        {% block body_block %}
+            <h1>Lista de Empresas</h1>
+            <ol>
+            {% for empresa in Empresas %}
+            <h2>
+                <li><a href='{{ empresa.id }}'></a>{{ empresa.name}}</li>
+            </h2>
+            {% endfor %}
+            </ol>
+        {% endblock %}
+    </body>
+</html>

@@ -16,7 +16,7 @@ class FormularioEmpresa(forms.Form):
     )
 
     email = forms.EmailField(
-        label = "cnpj",
+        label = "email",
         max_length = 30,
         required = True
     )
