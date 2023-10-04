@@ -8,6 +8,12 @@ def formulario_inscricao(request):
     form = FormularioInscricao()
     if request.method == 'POST':
         form = FormularioInscricao(request.POST)
+
+        # if user_form.is_valid():
+        #     user = form.save()
+        #     user.set_password(user.cpf)
+        #     user.save()
+
         if form.is_valid():
             print("Sucesso")
             form.save(commit=True)
@@ -21,7 +27,7 @@ def formulario_empresa(request):
     return render(request, 'formEmpresa.html', context={'form': FormularioEmpresa})
 
 def index(request):
-    return render(request, 'calc.html', context={'index': index})
+    return render(request, 'index.html', context={'index': index})
 
 def calc(request):
     c = {'insert' : 'calculadora'}

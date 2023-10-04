@@ -5,6 +5,8 @@
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{% static 'usipav/css/main.css' %}">
+        <title>Anthon</title>
+        <link rel = "icon" href = "{% static 'usipav/img/hp_avatar.png' %}" type = "image/x-icon">
 	</head>
     <body>
         <span class="navbar-text">
@@ -12,18 +14,27 @@
         </span>
         <nav>
             <div>
+                <p class="p-ball-home">◕&nbsp&nbsp&nbsp&nbsp</p>
                 <a href="{% url 'index' %}">
+                       Home   
+                </a>
+                <p class="p-ball-home">&nbsp&nbsp&nbsp&nbsp◕</p>
+                <a href="{% url 'formulario' %}">
+                    Entre Para Equipe
+                </a>
+                <p class="p-ball-home">&nbsp&nbsp&nbsp&nbsp◕</p>
+                <a href="{% url 'empresa' %}">
+                    Cadastre sua Empresa
+                </a>
+                <p class="p-ball-home">&nbsp&nbsp&nbsp&nbsp◕</p>
+                <a href="{% url 'empresas' %}">
+                    Empresas Cadastradas
+                </a>
+                <p class="p-ball-home">&nbsp&nbsp&nbsp&nbsp◕</p>
+                <a href="{% url 'calc' %}">
                     Calculadora
                 </a>
-                <a href="{% url 'formulario' %}">
-                    Funcionário
-                </a>
-                <a href="{% url 'empresa' %}">
-                    Empresas
-                </a>
-                <a href="{% url 'empresas' %}">
-                    Registros
-                </a>
+                <p class="p-ball-home">&nbsp&nbsp&nbsp&nbsp◕</p>
             </div>
         </nav>
 

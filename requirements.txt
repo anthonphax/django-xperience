@@ -1,5 +1,9 @@
 django
+django-debug-toolbar
 unidecode
 validate_docbr
 faker
 django-crispy-forms
+bcrypt
+django[argon2]
+pillow

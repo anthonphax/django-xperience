@@ -23,12 +23,12 @@ body {
 html{
   text-align: center;
   font-size: 18px;
-  background: url("../img/zen.jpg") center center;
+  background: url("../img/zen.png") center center;
 }
 
 nav {
   background-color: #0e213a;
-  opacity: 0.4;
+  opacity: 0.8;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 15px;
@@ -38,6 +38,11 @@ nav {
 nav:hover {
   opacity: 1;
 }
+
+.p-ball-home {
+  display: inline-block;
+}
+
 
 h1 {
   font-family: "gold";
